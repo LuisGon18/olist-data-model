@@ -1,0 +1,17 @@
+# Raw Olist data: never commit it (it lives in ../data/olist)
+data/
+*.csv
+*.parquet
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# Python (later projects)
+.venv/
+__pycache__/
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
